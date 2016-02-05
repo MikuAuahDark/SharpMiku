@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEP.HonokaMiku.Core", "DEP.HonokaMiku.Core\DEP.HonokaMiku.Core.csproj", "{32CFADED-25FE-4125-9A05-FEC8D724345E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEP.HonokaMiku.App", "DEP.HonokaMiku.App\DEP.HonokaMiku.App.csproj", "{05EBE930-6918-4EA2-B071-DF86A0095EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CFADED-25FE-4125-9A05-FEC8D724345E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CFADED-25FE-4125-9A05-FEC8D724345E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CFADED-25FE-4125-9A05-FEC8D724345E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CFADED-25FE-4125-9A05-FEC8D724345E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EBE930-6918-4EA2-B071-DF86A0095EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EBE930-6918-4EA2-B071-DF86A0095EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EBE930-6918-4EA2-B071-DF86A0095EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EBE930-6918-4EA2-B071-DF86A0095EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

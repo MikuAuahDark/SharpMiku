@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DEP.HonokaMiku.Core</name>
+    </assembly>
+    <members>
+        <member name="T:DEP.HonokaMiku.Core.DecrypterException">
+            <summary>
+              Exception thrown on <c>DecrypterContext</c> class
+            </summary>
+        </member>
+        <member name="T:DEP.HonokaMiku.Core.DecrypterContext">
+            <summary>
+              Base class of all decryption function
+            </summary>
+        </member>
+        <member name="M:DEP.HonokaMiku.Core.DecrypterContext.DecryptBlock(System.Byte[])">
+            <summary>
+              Decrypt bytes in <c>Buffer</c> and modify it's contents
+            </summary>
+            <param name="Buffer">Bytes that want to be decrypted</param>
+        </member>
+        <member name="M:DEP.HonokaMiku.Core.DecrypterContext.JumpOffset(System.Int64,System.Boolean)">
+            <summary>
+              Jumps to specificed offset
+            </summary>
+            <param name="Offset">Where?</param>
+            <param name="Relative">Jumps to relative location?</param>
+        </member>
+        <member name="M:DEP.HonokaMiku.Core.DecrypterContext.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>
+              Decrypt bytes in <c>Buffer</c> with option to return the new decrypted bytes
+            </summary>
+            <param name="Buffer">Bytes that want to be decrypted</param>
+            <param name="NewBuffer">Allocate new buffer for decrypted bytes?</param>
+        </member>
+        <member name="M:DEP.HonokaMiku.Core.DecrypterContext.DecryptBlock(System.Byte*,System.UInt32)">
+            <summary>
+              Decrypts bytes pointed by <c>Buffer</c> with specificed size
+            </summary>
+            <param name="Buffer">Pointer to bytes that want to be decrypted</param>
+            <param name="Size">Size of <c>Buffer</c>, in bytes</param>
+        </member>
+        <member name="M:DEP.HonokaMiku.Core.DecrypterContext.JumpOffset(System.UInt32)">
+            <summary>
+              Jumps to absolute offset
+            </summary>
+            <param name="Offset">Where?</param>
+        </member>
+    </members>
+</doc>
