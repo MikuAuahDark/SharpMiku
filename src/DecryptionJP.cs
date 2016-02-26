@@ -138,7 +138,7 @@ namespace DEP
                 foreach(Byte b in filename)
                     namesum+=b;
                 binwrite.Write(IPAddress.HostToNetworkOrder(namesum));
-                dctx.XorKey=(UInt16)((dctx.InitKey=dctx.UpdateKey=keyTables[namesum>>10])>>24);
+                dctx.XorKey=(UInt16)((dctx.InitKey=dctx.UpdateKey=keyTables[namesum&64])>>24);
 
                 return dctx;
             }

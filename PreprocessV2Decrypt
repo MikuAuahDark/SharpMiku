@@ -4,4 +4,8 @@ printf "// This file is preprocessed by GCC\n\n" > src/DecryptionV2.cs
 gcc -x c -E src/DecryptionV2_Unpreprocessed.cs -o temp.cs
 dos2unix temp.cs
 tail -c +146 temp.cs >> src/DecryptionV2.cs
+printf "// This file is preprocessed by GCC\n\n" > src/App.cs
+gcc -x c -E src/App_Unpreprocessed.cs -o temp.cs
+dos2unix temp.cs
+tail -c +118 temp.cs >> src/App.cs
 rm temp.cs
